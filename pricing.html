@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<head>
+  <title>Pages - Front End</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel=stylesheet href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/popup.js"></script>
+
+</head>
+<body>
+	<div class="btn-comment">
+		<span class="glyphicon glyphicon-comment icon-comment" onclick="showup()" ></span>
+		<span class="glyphicon glyphicon-remove icon-remove" onclick="flyout()" ></span>
+	</div>
+	<div class="popup">
+		<div class="popup-a">
+		 	<div class="pop-tit">Revox</div>
+			<div class="pop-cm">Need help with something? Leave us a message and we’ll follow up as soon as we can.</div>
+		</div>
+		<div class="popup-text">
+			<input type="text" name="" placeholder="Type your message...">
+		</div>		
+	</div>
+	<div class="header">
+		<div class="nav navbar-fixed-top tiny" id="header_nav">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="container">
+						<div class="navbar-header">
+							<div class="navbar-brand" style=" letter-spacing: -1px; color:white"><span style="font-size: 1.4em; font-weight: bolder;">pages</span> <span style="font-size: 1.4em; font-weight: lighter">frontend.</span></div>
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+								<span class="sr-only">Toggle navigation</span>
+			                    <span class="icon-bar"></span>
+			                    <span class="icon-bar"></span>
+			                    <span class="icon-bar"></span>
+							</button>		
+						</div>
+						<div class="navbar-collapse collapse" id="menu" >
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html" >HOME</a></li>
+					     		<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ELEMENTS <span class="glyphicon glyphicon-chevron-down"></span> </a>
+					     			<div class="row dropdown-menu">
+					     			 	<div class="col-md-5">
+					     			 		<div class="small-title">PAGES UI BUNDLE</div>
+					     					<div class="big-title">A new page, a new begining...</div>
+					     					<div class="comment">Exclusively available at Envato Marketplace</div>
+					     					<span class="blackbuy">BUYNOW</span>
+					     			 	</div>
+					     			 	<div class="col-md-2">				
+					     			 		<ul>
+					     			 			<li class="small-title">UI ELEMENTS</li>
+					     			 		    <li><a href="">COLORS</a></li>
+					     			 		    <li><a href="">ICONS</a></li>
+					     			 		    <li><a href="">BUTTON</a></li>
+					     			 		    <li><a href="">MODALS</a></li>
+					     			 		    <li><a href="">PROGRESS & ACTIVITY</a></li>
+					     			 		    <li><a href="">ACCORDIANS</a></li>
+					     			 		    <li><a href="">TABS</a></li>
+					     			 		</ul>
+					     			 	</div>
+					     			 	<div class="col-md-2">
+					     			 		
+					     			 		<ul>
+					     			 			<li class="small-title">FORM</li>
+					     			 		    <li><a href="">FORM ELEMENTS</a></li>
+					     			 		    <li><a href="">FORM LAYOUTS</a></li>
+					     			 		    <li><a href="">FORM VALIDATIONS</a></li>
+					     			 		</ul>
+					     			 		
+					     			 		<ul>
+					     			 			<li class="small-title">OTHER PRODUCTS</li>
+					     			 		    <li><a href="">WEBARCH</a></li>
+					     			 		</ul>
+					     			 	</div>
+					     			 	<div class="col-md-2">
+					     			 		
+					     			 		<ul>
+					     			 			<li class="small-title">MADE WITH PAGES</li>
+					     			 		    <li><a href="">PAGES ADMIN</a></li>
+					     			 		    <li><a href="">EMAIL</a></li>
+					     			 		    <li><a href="">PAGES FRONTEND</a></li>
+					     			 		    <li><a href="">CALENDAR</a></li>
+					     			 		    <li><a href="">SOCIAL</a></li>
+					     			 		    <li><a href="">BUILDER</a></li>
+					     			 		</ul>
+					     			 	</div>					     				
+					     			</div>					     			
+					     		</li>
+					    		<li><a href="pricing.html" class="active">PRICING</a></li>
+					     		<li><a href="portfolio.html">PORTFOLIO</a></li>
+					     		<li><a href="contact.html" >CONTACT</a></li>
+					     		<li><a href="#" id="buynow">BUYNOW</a></li>
+							</ul>
+						</div>			
+					</div>			
+				</div>				
+			</div>	
+		</div>	
+	</div>
+	
+	<section class="sec table-pricing">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 tb-tit" >
+					<div class="table-title" >Plans built for every agent you desire</div>
+					<div class="big-title">Start up with 30 days <b>FREE </b>trial. </div>
+				</div>
+				<div class="col-md-12 ">
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<thread>
+								<tr class="table-header">
+									<th class="row-top-left"></th>
+									<th class="col-header">REGULAR</th>
+									<th class="col-header middle-col" >EXTENDED</th>
+									<th class="col-header">REGULAR</th>
+								</tr>
+								<tr class="row-odd">
+									<th class="row-top-left"></th>
+									<td>27 <sup>USD</sup> <br>PER AGENT / MO</td>	
+									<td class="middle-col" style="color:#e5e5e5;">1000 <sup>USD</sup> <br>PER AGENT / MO</td>
+									<td>XXX <sup>USD</sup> <br> PER AGENT / MO</td>
+								</tr>
+							</thread>
+
+							<tbody class="table-body">
+							
+							<tr class="row-even">
+								<th scope="row" class="row-header">Number of end products</th>
+								<td>1</td>	
+								<td class="middle-col"  style="color:#e5e5e5;">1</td>
+								<td>
+									<div class="roundedcb">
+										<input type="checkbox" id="cb1" class="rounded" checked>
+										<label for="cb1"><span class="glyphicon glyphicon-ok icon-checked"></label>									
+									</div>
+								</td>
+							</tr>
+							<tr class="row-odd">
+								<th scope="row" class="row-header">Use in a single end product</th>
+								<td valign="middle"><span class="glyphicon glyphicon-ok" style="color:#10cfbd;"></span></td>	
+								<td class="middle-col"><span class="glyphicon glyphicon-ok"></span></td>
+								<td>
+									<div class="roundedcb">
+										<input type="checkbox" id="cb2" class="rounded" checked>
+										<label for="cb2"><span class="glyphicon glyphicon-ok icon-checked"></label>									
+									</div>
+								</td>
+							</tr>
+							<tr class="row-even">
+								<th scope="row" class="row-header">
+									Use in a free end product
+									<span class="comment">(more than one end user allowed)</span>
+								</th>
+								<td><span class="glyphicon glyphicon-ok" style="color:#10cfbd;"></span></td>	
+								<td class="middle-col"><span class="glyphicon glyphicon-ok"></span></td>
+								<td>
+									<div class="roundedcb">
+										<input type="checkbox" id="cb3" class="rounded" >
+										<label for="cb3"><span class="glyphicon glyphicon-ok icon-checked"></label>									
+									</div>
+								</td>
+							</tr>
+							<tr class="row-odd">
+								<th scope="row" class="row-header">Use in an end product that's sold</th>
+								<td>One license per each customized end product</td>	
+								<td class="middle-col"><span class="glyphicon glyphicon-ok"></span></td>
+								<td>
+									<div class="roundedcb">
+										<input type="checkbox" id="cb4" class="rounded" >
+										<label for="cb4"><span class="glyphicon glyphicon-ok icon-checked"></label>									
+									</div>
+								</td>
+							</tr>
+							<tr class="row-even">
+								<th scope="row" class="row-header">On-demand products/services
+									<span class="comment">(e.g. "made to order" or "create your own" apps and sites)</span>
+								</th>
+								<td></td>	
+								<td class="middle-col"><span class="glyphicon glyphicon-ok"></span></td>
+								<td>
+									<div class="roundedcb">
+										<input type="checkbox" id="cb5" class="rounded" >
+										<label for="cb5"><span class="glyphicon glyphicon-ok icon-checked"></label>									
+									</div>
+								</td>
+							</tr>
+							<tr class="row-odd">
+								<th scope="row" class="row-header">Use in stock items/templates
+									<span class="comment">(See FAQ for more details)</span>
+								</th>
+								<td></td>	
+								<td class="middle-col"><span class="glyphicon glyphicon-ok"></span></td>
+								<td>
+									<div class="roundedcb">
+										<input type="checkbox" id="cb6" class="rounded" >
+										<label for="cb6"><span class="glyphicon glyphicon-ok icon-checked"></label>									
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th rowspan="1" class=" row-header row-top-left"></th>
+								<td class="row-top-left">
+									Billed annually or $27 month-to-month <br>
+									<a href=""><span class="subcribe-button">Subcribe</span></a>
+								</td>	
+								<td class="middle-col" style="color:#e5e5e5;">
+									Billed annually or $1000 month-to-month<br>
+									<a href=""><span class="subcribe-button">Subcribe</span></a>
+								</td>
+								<td class=" row-top-left">
+									Billed annually or $xxx month-to-month<br>
+									<a href=""><span class="subcribe-button">Subcribe</span></a>
+								</td>
+							</tr>
+								
+							</tbody>							
+						</table>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	
+	<section class="sec section-5">
+		<div class="container">
+			<div class="row sec5-text">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="big-title">Crafted with detail for a great start! front-end plus back-end.</div>
+					<img src="themeforest_logo.png" alt="" style="margin-bottom: 30px ">
+					<div class="comment">Exclusive only at Envato Marketplace,</div>
+					<div class="comment">Themeforest See Standard licenses & Extended licenses</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<section class="footer"	>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-footer">
+					<div class="brand">
+						<a href="" class="" style=" letter-spacing: -1px;"><span style="font-size: 1.5em; font-weight: bolder; color: black">pages</span> <span style="font-size: 1.5em; font-weight: lighter; color:black">frontend.</span></a>
+					</div>
+					<div class="navigation">
+						<ul >
+						    <li><a href="">Home</a></li>
+						    <li><a href="">Themeforest</a></li>
+						    <li><a href="">Support</a></li>
+						    <li><a href="">Made with pages</a></li>
+						</ul>
+					</div>
+						
+				</div>
+				<div class="col-md-6 col-info">
+					<div class="comment" style="font-size: 8pt;" >Exclusive only at <b>Envato Marketplace,Themeforest</b> <b>See Standard licenses  & Extended licenses</b></div>
+					<div class="comment" style="font-size: 8pt;"> Copyright © 2014 REVOX. All Rights Reserved.</div>
+					
+				</div>
+			</div>
+				
+		</div>
+	</section>
+</body> 
+</html>
